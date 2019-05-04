@@ -1,0 +1,46 @@
+html {
+}
+
+body {
+}
+
+.container {
+}
+
+#timers-container {
+  display: block;
+}
+
+.total-container {
+  margin: 0px;
+}
+
+.lap-container {
+  margin: 0px;
+}
+
+.timer {
+}
+
+#total-timer {
+}
+
+#lap-timer {
+}
+
+#start-button {
+  width: 105px;
+}
+
+#reset-button {
+  width: 105px;
+}
+
+#lap-button {
+}
+
+.timestamps-container {
+}
+
+#timestamp {
+}

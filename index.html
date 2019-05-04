@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Stopwatch App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="timers-container">
+        <div class="total-container">
+          <div>TOTAL:</div>
+          <h1 class="timer" id="total-timer">00:00:00</h1>
+        </div>
+        <div class="lap-container">
+          <div>LAP:</div>
+          <h1 class="timer" id="lap-timer">00:00:00</h1>
+        </div>
+      </div>
+
+      <button id="start-button">START</button>
+      <button id="reset-button">RESET</button>
+      <button id="lap-button">LAP</button>
+    </div>
+
+    <div class="timestamps-container">
+      <div id="timestamp"></div>
+    </div>
+
+    <script src="main.js" async defer></script>
+  </body>
+</html>
